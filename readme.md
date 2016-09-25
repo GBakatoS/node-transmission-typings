@@ -1,0 +1,1 @@
+### Typings for node-transmission
