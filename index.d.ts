@@ -8,7 +8,7 @@ declare module "transmission" {
 
         namespace Transmission {
 
-                interface setupOptions { host?: string, port?: number, username?: string, password?: string, url?: string }
+                interface setupOptions { host?: string, port?: number, username?: string, password?: string, url?: string, ssl?: boolean }
                 interface options {
                         [propName: string]: string
                 }
